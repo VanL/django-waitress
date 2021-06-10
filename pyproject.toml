@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "django-waitress"
-version = "0.1.0"
+version = "0.1.1"
 description = "Run a production-ready server from manage.py"
-authors = ["Adam Brenecki"]
+authors = ["Adam Brenecki", "Van Lindberg"]
 license = "CC0-1.0"
 readme = "README.rst"
 
