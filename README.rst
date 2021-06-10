@@ -1,11 +1,16 @@
-django-waitress
+_django-waitress
 ===============
 
 Run a production-ready server from manage.py!
 
-This Django app just provides a management command that serves your Django project using Waitress, a production-ready and `Heroku-friendly <heroku>`_ WSGI server.
+This Django app just provides a management command that serves your Django project using `Waitress <waitress>`_, a pure-Python, no-dependencies production-ready and `Heroku-friendly <heroku>`_ WSGI server.
 
+.. _waitress: https://docs.pylonsproject.org/projects/waitress/en/latest/
 .. _heroku: http://blog.etianen.com/blog/2014/01/19/gunicorn-heroku-django/
+
+NOTE: According to  `PyPI <pypi>`_, this project was originally created by adambrenecki, but it seems to be unmaintained. This fork just makes the few necessary updates to keep it up-to-date.
+
+.. pypi: https://pypi.org/project/django-waitress/
 
 Usage
 -----
