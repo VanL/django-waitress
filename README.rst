@@ -1,4 +1,4 @@
-_django-waitress
+django-waitress
 ===============
 
 Run a production-ready server from manage.py!
